@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.cyanogenmod.hardware;
+package org.mokee.hardware;
 
-import org.cyanogenmod.internal.util.FileUtils;
+import org.mokee.internal.util.FileUtils;
 
 public class VibratorHW {
     private static String LEVEL_PATH = "/sys/class/timed_output/vibrator/vtg_level";

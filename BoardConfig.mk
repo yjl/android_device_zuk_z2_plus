@@ -121,11 +121,11 @@ TARGET_CAMERASERVICE_CLOSES_NATIVE_HANDLES := true
 BOARD_CHARGER_ENABLE_SUSPEND := true
 
 # CM Hardware
-BOARD_HARDWARE_CLASS += $(PLATFORM_PATH)/cmhw
+BOARD_HARDWARE_CLASS += $(PLATFORM_PATH)/mkhw
 TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/touch/tp_dev/gesture_on"
-BOARD_USES_CYANOGEN_HARDWARE := true
+BOARD_USES_MOKEE_HARDWARE := true
 BOARD_HARDWARE_CLASS += \
-    hardware/cyanogen/cmhw
+    hardware/mokee/mkhw
 
 # CNE and DPM
 TARGET_LDPRELOAD := libNimsWrap.so
