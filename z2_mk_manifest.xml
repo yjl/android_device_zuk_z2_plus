@@ -11,7 +11,8 @@
 
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github"/>
   <project path="hardware/sony/timekeep" name="LineageOS/android_hardware_sony_timekeep" remote="github"/>
+  <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github"/>
 
-  <remove-project name="prebuilts/snapdragon/llvm-3.8"/>
+  <remove-project name="MoKee/android_prebuilts_snapdragon_llvm-3.8"/>
 
 </manifest>
