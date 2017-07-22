@@ -13,6 +13,7 @@
 
   <project path="prebuilts/snapdragon/llvm-3.8" name="MoKee/android_prebuilts_snapdragon_llvm-3.8" clone-depth="1" remote="github" revision="mkn-mr1"/>
 
+  <remove-project name="SudaMod/android_packages_apps_gaojixian"/>
   <remove-project name="SudaMod/android_packages_apps_CMUpdater"/>
 
 </manifest>
